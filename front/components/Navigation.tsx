@@ -144,17 +144,17 @@ const Navigation = () => {
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://linkedin.com/in/danieldjakam"
+                href="https://twitter.com/danieldjakam"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-xl bg-primary/10 hover:bg-primary/20 border border-primary/20 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
               >
-                <Linkedin className="h-5 w-5 text-primary" />
+                <Twitter className="h-5 w-5 text-primary" />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="mailto:daniel@example.com"
+                href="mailto:danidjakam@gmail.com"
                 className="p-2 rounded-xl bg-primary/10 hover:bg-primary/20 border border-primary/20 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
               >
                 <Mail className="h-5 w-5 text-primary" />
@@ -229,17 +229,17 @@ const Navigation = () => {
                     <motion.a
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
-                      href="https://linkedin.com/in/danieldjakam"
+                      href="https://twitter.com/danieldjakam"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 rounded-xl bg-primary/10 hover:bg-primary/20 border border-primary/20 transition-all duration-300"
                     >
-                      <Linkedin className="h-5 w-5 text-primary" />
+                      <Twitter className="h-5 w-5 text-primary" />
                     </motion.a>
                     <motion.a
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
-                      href="mailto:daniel@example.com"
+                      href="mailto:danidjakam@gmail.com"
                       className="p-2 rounded-xl bg-primary/10 hover:bg-primary/20 border border-primary/20 transition-all duration-300"
                     >
                       <Mail className="h-5 w-5 text-primary" />
