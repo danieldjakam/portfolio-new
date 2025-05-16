@@ -14,7 +14,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
+      name: 'Michel Yossa',
       role: 'Product Manager',
       company: 'TechCorp Inc.',
       content: "Daniel is an exceptional developer who delivered our e-commerce platform ahead of schedule. His attention to detail and clean code made the project a success. Highly recommended!",
@@ -24,7 +24,7 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      name: 'Michael Chen',
+      name: 'Ebode Patient',
       role: 'CTO',
       company: 'StartupXYZ',
       content: "Working with Daniel was a game-changer for our startup. He built a robust task management system that scaled perfectly with our growth. His technical expertise is outstanding.",
@@ -34,7 +34,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: 'Emily Rodriguez',
+      name: 'Toukea Nestor',
       role: 'Marketing Director',
       company: 'Creative Agency',
       content: "Daniel created a stunning portfolio website that perfectly captured our brand identity. The animations and user experience exceeded our expectations. Truly talented developer!",
@@ -44,7 +44,7 @@ const Testimonials = () => {
     },
     {
       id: 4,
-      name: 'David Thompson',
+      name: 'Boussar Engeline',
       role: 'Founder',
       company: 'WeatherTech',
       content: "The weather dashboard Daniel built for us is not only beautiful but also highly functional. Our users love the intuitive interface and real-time data updates.",
@@ -54,7 +54,7 @@ const Testimonials = () => {
     },
     {
       id: 5,
-      name: 'Lisa Wang',
+      name: 'Njoh Anne',
       role: 'Content Manager',
       company: 'BlogHub',
       content: "Daniel's blog platform transformed our content management workflow. The markdown support and SEO optimization features are exactly what we needed. Excellent work!",
@@ -65,7 +65,7 @@ const Testimonials = () => {
     {
       id: 6,
       name: 'Alex Martinez',
-      role: 'Team Lead',
+      role: 'Njonou Lumiere',
       company: 'ChatFlow',
       content: "The real-time chat application Daniel developed is incredibly smooth and reliable. Our team communication has improved significantly since implementing this solution.",
       rating: 5,
