@@ -196,7 +196,7 @@ const Testimonials = () => {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="space-y-2"
               >
-                <div className="text-3xl font-bold text-primary">50+</div>
+                <div className="text-3xl font-bold text-primary">20+</div>
                 <div className="text-sm text-muted-foreground">{t('testimonials.stats.clients')}</div>
               </motion.div>
               
@@ -206,7 +206,7 @@ const Testimonials = () => {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="space-y-2"
               >
-                <div className="text-3xl font-bold text-primary">100+</div>
+                <div className="text-3xl font-bold text-primary">20+</div>
                 <div className="text-sm text-muted-foreground">{t('testimonials.stats.projects')}</div>
               </motion.div>
               
@@ -226,7 +226,7 @@ const Testimonials = () => {
                 transition={{ duration: 0.6, delay: 0.8 }}
                 className="space-y-2"
               >
-                <div className="text-3xl font-bold text-primary">3+</div>
+                <div className="text-3xl font-bold text-primary">5+</div>
                 <div className="text-sm text-muted-foreground">{t('testimonials.stats.experience')}</div>
               </motion.div>
             </div>
