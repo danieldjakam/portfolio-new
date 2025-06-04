@@ -17,11 +17,11 @@ const Footer = () => {
       href: "https://github.com/danieldjakam",
       label: "GitHub"
     },
-    {
-      icon: Linkedin,
-      href: "https://linkedin.com/in/danieldjakam",
-      label: "LinkedIn"
-    },
+    // {
+    //   icon: Linkedin,
+    //   href: "https://linkedin.com/in/danieldjakam",
+    //   label: "LinkedIn"
+    // },
     {
       icon: Twitter,
       href: "https://twitter.com/danieldjakam",
