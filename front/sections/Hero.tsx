@@ -129,31 +129,31 @@ const Hero = () => {
               whileHover={{ scale: 1.1 }}
               className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium border border-primary/20"
             >
-              React
+              React JS
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium border border-primary/20"
             >
-              Next.js
+              Adonisjs
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium border border-primary/20"
             >
-              TypeScript
+              React Native
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium border border-primary/20"
             >
-              Node.js
+              Django
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium border border-primary/20"
             >
-              Tailwind CSS
+              Laravel
             </motion.div>
           </motion.div>
         </motion.div>

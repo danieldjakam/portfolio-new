@@ -1,3 +1,4 @@
+"use client";
 import { WifiOff, RefreshCw, Home } from 'lucide-react';
 import Link from 'next/link';
 
@@ -19,8 +20,8 @@ export default function OfflinePage() {
 
         <div className="space-y-4">
           <button
-            onClick={() => window.location.reload()}
-            className="w-full px-6 py-3 bg-primary hover:bg-primary-dark text-background font-medium rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2"
+            onClick={() => {window.location.reload()}}
+            className="w-full px-6 py-3 bg-primary hover:bg-primary-dark text-background font-medium rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 cursor-pointer"
           >
             <RefreshCw className="h-5 w-5" />
             <span>Try Again</span>

@@ -32,7 +32,7 @@ export const translations = {
     hero: {
       greeting: "Hello, I'm",
       title: 'Full Stack Developer',
-      description: "Passionate about creating beautiful, modern web applications with cutting-edge technologies. I turn ideas into reality through clean code and innovative solutions.",
+      description: "Passionate about creating beautiful, modern web & mobile applications with cutting-edge technologies. I turn ideas into reality through clean code and innovative solutions.",
       cta1: 'Get to know me',
       cta2: 'View Projects',
       scrollDown: 'Scroll down'
@@ -122,7 +122,7 @@ export const translations = {
     hero: {
       greeting: "Bonjour, je suis",
       title: 'Développeur Full Stack',
-      description: "Passionné par la création d'applications web modernes et belles avec des technologies de pointe. Je transforme les idées en réalité grâce à un code propre et des solutions innovantes.",
+      description: "Passionné par la création d'applications web et mobiles modernes et belles avec des technologies de pointe. Je transforme les idées en réalité grâce à un code propre et des solutions innovantes.",
       cta1: 'En savoir plus',
       cta2: 'Voir les projets',
       scrollDown: 'Défiler vers le bas'
@@ -130,7 +130,7 @@ export const translations = {
     about: {
       title: 'À propos de moi',
       whoIAm: 'Qui je suis',
-      description1: "Je suis un développeur Full Stack passionné par la création d'applications web innovantes. Avec une expertise dans les frameworks JavaScript modernes et un œil pour le design, je donne vie aux idées grâce à un code propre et efficace et des solutions centrées sur l'utilisateur.",
+      description1: "Je suis un développeur Full Stack passionné par la création d'applications web & mobiles innovantes. Avec une expertise dans les frameworks JavaScript modernes et un œil pour le design, je donne vie aux idées grâce à un code propre et efficace et des solutions centrées sur l'utilisateur.",
       description2: "Quand je ne code pas, vous me trouverez en train d'explorer de nouvelles technologies, de contribuer à des projets open-source ou de partager des connaissances avec la communauté des développeurs. Je crois en l'apprentissage continu et en rester à jour avec les dernières tendances de l'industrie.",
       personalDetails: 'Détails personnels',
       skills: 'Compétences et expertise',
