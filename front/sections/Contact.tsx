@@ -59,9 +59,9 @@ const Contact = () => {
       color: "hover:text-primary"
     },
     {
-      icon: Linkedin,
+      icon: Mail,
       name: "LinkedIn",
-      href: "https://linkedin.com/in/danieldjakam",
+      href: "mailto:danidjakam@gmail.com",
       color: "hover:text-primary"
     },
     {

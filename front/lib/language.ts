@@ -188,7 +188,7 @@ export const translations = {
         subject: 'Sujet',
         message: 'Message',
         namePlaceholder: 'Votre nom',
-        emailPlaceholder: 'votre.email@exemple.com',
+        emailPlaceholder: 'email@exemple.com',
         subjectPlaceholder: 'De quoi s\'agit-il ?',
         messagePlaceholder: 'Parlez-moi de votre projet ou dites simplement bonjour !',
         send: 'Envoyer le message'
