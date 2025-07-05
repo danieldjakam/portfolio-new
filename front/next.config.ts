@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 import withPWA from 'next-pwa';
 
 const nextConfig: NextConfig = withPWA({
-  reactStrictMode: true,
+  reactStrictMode: false,
   swcMinify: true,
   pwa: {
     dest: 'public',
