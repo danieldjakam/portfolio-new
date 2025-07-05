@@ -34,19 +34,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "daniel@example.com",
-      href: "mailto:daniel@example.com"
+      value: "danidjakam@gmail.com",
+      href: "mailto:danidjakam@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+237 658 501 980",
+      href: "tel:+237658501980"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Your City, Country",
+      value: "Douala, Cameroon",
       href: "#"
     }
   ];

@@ -6,6 +6,8 @@ import Projects from '../sections/Projects';
 import Skills from '../sections/Skills';
 import Contact from '../sections/Contact';
 import Footer from '../components/Footer';
+import PWAInstallPrompt from '../components/PWAInstallPrompt';
+import PWAStatus from '../components/PWAStatus';
 
 export const metadata: Metadata = {
   title: 'Daniel Djakam - Full Stack Developer',
@@ -56,6 +58,8 @@ export default function Home() {
       <Skills />
       <Contact />
       <Footer />
+      <PWAInstallPrompt />
+      <PWAStatus />
     </main>
   );
 }
