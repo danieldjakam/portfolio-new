@@ -77,13 +77,13 @@ const Navigation = () => {
       }`}
     >
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-20 ">
           {/* Logo */}
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="flex items-center space-x-3"
+            className="flex items-center gap-2"
           >
-            <div className="p-2 rounded-xl bg-primary/10 border border-primary/20">
+            <div className="p-4 rounded-xl bg-primary/10 border border-primary/20">
               <Code className="h-6 w-6 text-primary" />
             </div>
             <span className="text-xl font-bold gradient-text">Daniel Djakam</span>
@@ -100,7 +100,7 @@ const Navigation = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection(item.href)}
-                className={`relative px-10 py-4 rounded-xl font-medium transition-all duration-300 ${
+                className={`relative px-4 py-4 rounded-xl font-medium transition-all duration-300 ${
                   activeSection === item.id
                     ? 'text-primary bg-primary/10 border border-primary/20 shadow-lg shadow-primary/10'
                     : 'text-foreground hover:text-primary hover:bg-primary/5'
@@ -120,16 +120,16 @@ const Navigation = () => {
           </div>
 
           {/* Right Side Controls */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4 gap-4">
             {/* Theme and Language Switchers */}
-            <div className="flex items-center space-x-2 p-1 rounded-xl bg-card/50 border border-border/50">
+            <div className="flex items-center space-x-2 p-1 rounded-xl bg-card/50 border border-border/50 gap-2">
               <ThemeSwitcher />
               <div className="w-px h-6 bg-border/50" />
               <LanguageSwitcher />
             </div>
 
             {/* Social Links */}
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 gap-2">
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
