@@ -55,6 +55,7 @@ const Navigation = () => {
     { name: t('nav.about'), href: '#about', id: 'about' },
     { name: t('nav.projects'), href: '#projects', id: 'projects' },
     { name: t('nav.skills'), href: '#skills', id: 'skills' },
+    { name: t('nav.testimonials'), href: '#testimonials', id: 'testimonials' },
     { name: t('nav.contact'), href: '#contact', id: 'contact' },
   ];
 

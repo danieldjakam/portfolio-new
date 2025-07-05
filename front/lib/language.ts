@@ -26,6 +26,7 @@ export const translations = {
       about: 'About',
       projects: 'Projects',
       skills: 'Skills',
+      testimonials: 'Testimonials',
       contact: 'Contact'
     },
     hero: {
@@ -71,6 +72,16 @@ export const translations = {
       learning: 'Currently Learning',
       learningText: 'I\'m always expanding my knowledge and exploring new technologies. Here are some areas I\'m currently focusing on:'
     },
+    testimonials: {
+      title: 'Client Testimonials',
+      description: 'Here\'s what my clients have to say about working with me. Their feedback reflects my commitment to delivering exceptional results and building lasting relationships.',
+      stats: {
+        clients: 'Happy Clients',
+        projects: 'Projects Completed',
+        rating: 'Average Rating',
+        experience: 'Years Experience'
+      }
+    },
     contact: {
       title: 'Get In Touch',
       description: "I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to work together or just say hello!",
@@ -105,6 +116,7 @@ export const translations = {
       about: 'À propos',
       projects: 'Projets',
       skills: 'Compétences',
+      testimonials: 'Témoignages',
       contact: 'Contact'
     },
     hero: {
@@ -150,6 +162,16 @@ export const translations = {
       learning: 'En cours d\'apprentissage',
       learningText: 'J\'élargis constamment mes connaissances et explore de nouvelles technologies. Voici quelques domaines sur lesquels je me concentre actuellement :'
     },
+    testimonials: {
+      title: 'Témoignages Clients',
+      description: 'Voici ce que mes clients disent de notre collaboration. Leurs retours reflètent mon engagement à fournir des résultats exceptionnels et à construire des relations durables.',
+      stats: {
+        clients: 'Clients Satisfaits',
+        projects: 'Projets Réalisés',
+        rating: 'Note Moyenne',
+        experience: 'Années d\'Expérience'
+      }
+    },
     contact: {
       title: 'Contactez-moi',
       description: "Je suis toujours intéressé par de nouvelles opportunités et des projets passionnants. N'hésitez pas à me contacter si vous souhaitez travailler ensemble ou simplement dire bonjour !",
@@ -184,6 +206,7 @@ export const translations = {
       about: 'Acerca de',
       projects: 'Proyectos',
       skills: 'Habilidades',
+      testimonials: 'Testimonios',
       contact: 'Contacto'
     },
     hero: {
@@ -228,6 +251,16 @@ export const translations = {
       other: 'Otras habilidades',
       learning: 'Aprendiendo actualmente',
       learningText: 'Siempre estoy expandiendo mis conocimientos y explorando nuevas tecnologías. Aquí hay algunas áreas en las que me estoy enfocando actualmente:'
+    },
+    testimonials: {
+      title: 'Testimonios de Clientes',
+      description: 'Aquí está lo que mis clientes dicen sobre trabajar conmigo. Sus comentarios reflejan mi compromiso de entregar resultados excepcionales y construir relaciones duraderas.',
+      stats: {
+        clients: 'Clientes Felices',
+        projects: 'Proyectos Completados',
+        rating: 'Calificación Promedio',
+        experience: 'Años de Experiencia'
+      }
     },
     contact: {
       title: 'Ponte en contacto',

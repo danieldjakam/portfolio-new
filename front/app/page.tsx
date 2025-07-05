@@ -4,6 +4,7 @@ import Hero from '../sections/Hero';
 import About from '../sections/About';
 import Projects from '../sections/Projects';
 import Skills from '../sections/Skills';
+import Testimonials from '../sections/Testimonials';
 import Contact from '../sections/Contact';
 import Footer from '../components/Footer';
 import PWAInstallPrompt from '../components/PWAInstallPrompt';
@@ -56,6 +57,7 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
+      <Testimonials />
       <Contact />
       <Footer />
       <PWAInstallPrompt />
