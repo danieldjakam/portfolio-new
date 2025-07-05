@@ -46,7 +46,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-24"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4" id="about-heading">
             {t('about.title').split(' ')[0]} <span className="gradient-text">{t('about.title').split(' ').slice(1).join(' ')}</span>
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full"></div>

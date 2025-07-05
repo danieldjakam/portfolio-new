@@ -120,6 +120,7 @@ const Skills = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold gradient-text mb-6"
+            id="skills-heading"
           >
             {t('skills.title')}
           </motion.h2>

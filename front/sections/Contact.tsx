@@ -81,7 +81,7 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-24"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4" id="contact-heading">
             {t('contact.title').split(' ').slice(0, -1).join(' ')} <span className="gradient-text">{t('contact.title').split(' ').slice(-1)[0]}</span>
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full mb-4"></div>

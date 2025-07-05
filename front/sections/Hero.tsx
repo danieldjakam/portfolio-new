@@ -85,6 +85,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-foreground/70 leading-relaxed"
+            role="doc-subtitle"
           >
             {t('hero.description')}
           </motion.p>
