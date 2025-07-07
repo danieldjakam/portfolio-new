@@ -35,8 +35,8 @@ const Skills = () => {
       icon: Server,
       skills: [
         { name: 'Adonisjs', level: 80 },
-        { name: 'Laravel', level: 70 },
-        { name: 'Django', level: 65 },
+        { name: 'Laravel', level: 80 },
+        { name: 'Django', level: 75 },
         { name: 'MongoDB', level: 75 }
       ]
     },
@@ -46,7 +46,7 @@ const Skills = () => {
       skills: [
         { name: 'Git', level: 85 },
         { name: 'Docker', level: 70 },
-        { name: 'Figma', level: 75 },
+        { name: 'Figma', level: 85 },
         { name: 'Postman', level: 80 }
       ]
     },
@@ -57,7 +57,7 @@ const Skills = () => {
         { name: 'REST APIs', level: 85 },
         { name: 'Testing', level: 75 },
         { name: 'Agile', level: 80 },
-        { name: 'UI/UX', level: 75 }
+        { name: 'UI/UX', level: 85 }
       ]
     }
   ];
