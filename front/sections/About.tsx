@@ -80,7 +80,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-3 text-foreground/80">
                   <MapPin className="h-5 w-5 text-primary" />
-                  <span>Based in Your City, Country</span>
+                  <span>Based in Douala, Cameroun</span>
                 </div>
                 <div className="flex items-center space-x-3 text-foreground/80">
                   <Calendar className="h-5 w-5 text-primary" />
@@ -88,7 +88,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-3 text-foreground/80">
                   <Mail className="h-5 w-5 text-primary" />
-                  <span>daniel@example.com</span>
+                  <span>danidjakam@gmail.com</span>
                 </div>
               </div>
             </motion.div>
@@ -108,12 +108,10 @@ const About = () => {
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://linkedin.com/in/danieldjakam"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:danidjakam@gmail.com"
                 className="p-3 bg-primary/10 hover:bg-primary/20 text-primary rounded-full transition-colors duration-200"
               >
-                <Linkedin className="h-6 w-6" />
+                <Mail className="h-6 w-6" />
               </motion.a>
             </motion.div>
           </motion.div>
