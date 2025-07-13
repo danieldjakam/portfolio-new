@@ -23,11 +23,10 @@ const Skills = () => {
       title: t('skills.frontend'),
       icon: Palette,
       skills: [
-        { name: 'React', level: 90 },
+        { name: 'React & React Native', level: 90 },
         { name: 'TypeScript', level: 85 },
-        { name: 'Next.js', level: 80 },
+        // { name: 'Adonisjs', level: 80 },
         { name: 'Tailwind CSS', level: 90 },
-        { name: 'HTML/CSS', level: 95 },
         { name: 'JavaScript', level: 90 }
       ]
     },
@@ -35,11 +34,9 @@ const Skills = () => {
       title: t('skills.backend'),
       icon: Server,
       skills: [
-        { name: 'Node.js', level: 80 },
-        { name: 'Express.js', level: 75 },
-        { name: 'Python', level: 70 },
+        { name: 'Adonisjs', level: 80 },
+        { name: 'Laravel', level: 70 },
         { name: 'Django', level: 65 },
-        { name: 'PostgreSQL', level: 70 },
         { name: 'MongoDB', level: 75 }
       ]
     },
@@ -49,9 +46,7 @@ const Skills = () => {
       skills: [
         { name: 'Git', level: 85 },
         { name: 'Docker', level: 70 },
-        { name: 'AWS', level: 65 },
         { name: 'Figma', level: 75 },
-        { name: 'VS Code', level: 90 },
         { name: 'Postman', level: 80 }
       ]
     },
@@ -60,9 +55,7 @@ const Skills = () => {
       icon: Zap,
       skills: [
         { name: 'REST APIs', level: 85 },
-        { name: 'GraphQL', level: 70 },
         { name: 'Testing', level: 75 },
-        { name: 'CI/CD', level: 70 },
         { name: 'Agile', level: 80 },
         { name: 'UI/UX', level: 75 }
       ]
