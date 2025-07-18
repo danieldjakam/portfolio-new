@@ -18,16 +18,16 @@ const Projects = () => {
       image: "projects/kira.png",
       technologies: ["Next.js", "Django", "Stripe", "PostgreSQL", "Tailwind CSS"],
       github: "https://github.com/danieldjakam/ecommerce",
-      live: "https://ecommerce-demo.com",
+      live: false,
       featured: true
     },
     {
       title: "School Management App for secondary schools",
       description: "A comprehensive school management system with features for student enrollment, attendance tracking, and grade management.",
       image: "projects/school.png",
-      technologies: ["React", "Node.js", "MySQL", "Express"],
+      technologies: ["React", "Node.js", "Express", "MySQL"],
       github: "https://github.com/danieldjakam/task-manager",
-      live: "https://task-manager-demo.com",
+      live: false,
       featured: true
     },
     {
@@ -45,16 +45,16 @@ const Projects = () => {
       image: "projects/school uni.png",
       technologies: ["Laravel", "Tailwind CSS", "Chart.js", "CSS Modules"],
       github: "https://github.com/danieldjakam/weather-app",
-      live: "https://weather-demo.com",
+      live: false,
       featured: false
     },
     {
-      title: "A music streaming app - Pleyer",
-      description: "A music streaming application with user authentication, playlist management, and real-time updates.",
-      image: "projects/pleyer.png",
-      technologies: ["Next.js", "Deezer API", "PostgreSQL", "Vercel"],
+      title: "An mobile app for Bible studies - joy of Mission",
+      description: "A mobile app for religious music and Bible studies, featuring a user-friendly interface and offline access to content. We can play musics, games and read the Bible. And many more.",
+      image: "projects/joy.png",
+      technologies: ["ReactNative", "Expo", "Laravel", "MySQL"],
       github: "https://github.com/danieldjakam/blog-platform",
-      live: "https://blog-demo.com",
+      live: "https://joyofmission.com/",
       featured: false
     },
     {
@@ -63,10 +63,18 @@ const Projects = () => {
       image: "projects/ecom.png",
       technologies: ["Laravel", "Stripe", "Tailwind CSS", "JWT"],
       github: "https://github.com/danieldjakam/chat-app",
-      live: "https://chat-demo.com",
+      live: "https://estuaireachats.com/",
       featured: false
     }
-  ];
+  ] as {
+    title: string;
+    description: string;
+    image: string;
+    technologies: string[];
+    github: string;
+    live: string | false;
+    featured: boolean;
+  }[]; 
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -233,8 +241,8 @@ const Projects = () => {
                     )}
                   </div>
                   
-                  {/* <div className="flex space-x-2">
-                    <motion.a
+                  <div className="flex space-x-2">
+                    {/* <motion.a
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       href={project.github}
@@ -244,20 +252,24 @@ const Projects = () => {
                     >
                                            <Github className="h-3 w-3" />
                      <span className="text-xs font-medium">{t('projects.code')}</span>
-                   </motion.a>
-                   <motion.a
-                     whileHover={{ scale: 1.05 }}
-                     whileTap={{ scale: 0.95 }}
-                     href={project.live}
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     className="flex items-center space-x-1 px-3 py-1.5 bg-primary hover:bg-primary-dark text-background rounded-lg transition-colors duration-200"
-                   >
-                     <ExternalLink className="h-3 w-3" />
-                     <span className="h-3 w-3" />
-                     <span className="text-xs font-medium">{t('projects.demo')}</span>
-                   </motion.a>
-                  </div> */}
+                   </motion.a> */}
+                   {
+                    project.live && (
+                      <motion.a
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        href={project.live??"#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-1 px-3 py-1.5 bg-primary hover:bg-primary-dark text-background rounded-lg transition-colors duration-200"
+                      >
+                        <ExternalLink className="h-3 w-3" />
+                        <span className="h-3 w-3" />
+                        <span className="text-xs font-medium">{t('projects.demo')}</span>
+                      </motion.a>
+                    )
+                   }
+                  </div>
                 </div>
               </motion.div>
             ))}
