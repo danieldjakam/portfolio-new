@@ -13,19 +13,19 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform built with Next.js, TypeScript, and Stripe integration. Features include user authentication, product management, and real-time inventory tracking.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"],
+      title: "Kira",
+      description: "A full-stack platform for creating badge automated.",
+      image: "projects/kira.png",
+      technologies: ["Next.js", "Django", "Stripe", "PostgreSQL", "Tailwind CSS"],
       github: "https://github.com/danieldjakam/ecommerce",
       live: "https://ecommerce-demo.com",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      title: "School Management App for secondary schools",
+      description: "A comprehensive school management system with features for student enrollment, attendance tracking, and grade management.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
+      technologies: ["React", "Node.js", "Socket.io", "MySQL", "Express"],
       github: "https://github.com/danieldjakam/task-manager",
       live: "https://task-manager-demo.com",
       featured: true
@@ -40,28 +40,28 @@ const Projects = () => {
       featured: false
     },
     {
-      title: "Weather Dashboard",
-      description: "A weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
+      title: "School Management Platform for university schools",
+      description: "A robust platform for managing university schools with features for course management, student profiles, and faculty administration.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "OpenWeather API", "Chart.js", "CSS Modules"],
+      technologies: ["Laravel", "Tailwind CSS", "Chart.js", "CSS Modules"],
       github: "https://github.com/danieldjakam/weather-app",
       live: "https://weather-demo.com",
       featured: false
     },
     {
-      title: "Blog Platform",
-      description: "A content management system for blogs with markdown support, SEO optimization, and admin dashboard.",
+      title: "A music streaming app - Pleyer",
+      description: "A music streaming application with user authentication, playlist management, and real-time updates.",
       image: "/api/placeholder/400/250",
-      technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL", "Vercel"],
+      technologies: ["Next.js", "Deezer API", "PostgreSQL", "Vercel"],
       github: "https://github.com/danieldjakam/blog-platform",
       live: "https://blog-demo.com",
       featured: false
     },
     {
-      title: "Chat Application",
-      description: "Real-time chat application with user authentication, file sharing, and group chat functionality.",
+      title: "E-commerce Platform",
+      description: "A full-featured e-commerce platform with product listings, shopping cart, and payment integration.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Socket.io", "Express", "MongoDB", "JWT"],
+      technologies: ["Laravel", "Stripe", "Tailwind CSS", "JWT"],
       github: "https://github.com/danieldjakam/chat-app",
       live: "https://chat-demo.com",
       featured: false
@@ -123,7 +123,11 @@ const Projects = () => {
                 <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Code className="h-16 w-16 text-primary/30" />
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-s transition-transform duration-300 group-hover:scale-110"
+                    />
                   </div>
                 </div>
                 
@@ -146,7 +150,7 @@ const Projects = () => {
                     ))}
                   </div>
                   
-                  <div className="flex space-x-4">
+                  {/* <div className="flex space-x-4">
                     <motion.a
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
@@ -169,7 +173,7 @@ const Projects = () => {
                      <ExternalLink className="h-4 w-4" />
                      <span className="text-sm font-medium">{t('projects.demo')}</span>
                    </motion.a>
-                  </div>
+                  </div> */}
                 </div>
               </motion.div>
             ))}
@@ -201,7 +205,7 @@ const Projects = () => {
                   </div>
                 </div>
                 
-                                 <div className="p-8">
+                  <div className="p-8">
                   <h4 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
                     {project.title}
                   </h4>
@@ -225,7 +229,7 @@ const Projects = () => {
                     )}
                   </div>
                   
-                  <div className="flex space-x-2">
+                  {/* <div className="flex space-x-2">
                     <motion.a
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
@@ -249,7 +253,7 @@ const Projects = () => {
                      <span className="h-3 w-3" />
                      <span className="text-xs font-medium">{t('projects.demo')}</span>
                    </motion.a>
-                  </div>
+                  </div> */}
                 </div>
               </motion.div>
             ))}
