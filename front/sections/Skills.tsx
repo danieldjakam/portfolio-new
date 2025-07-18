@@ -14,53 +14,53 @@ import {
   GitBranch,
   Server
 } from 'lucide-react';
+import { useMemo } from 'react';
 
 const Skills = () => {
-  const { t } = useApp();
+  const { t, language } = useApp();
 
-  const skillCategories = [
-    {
-      title: t('skills.frontend'),
-      icon: Palette,
-      skills: [
-        { name: 'React & React Native', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        // { name: 'Adonisjs', level: 80 },
-        { name: 'Tailwind CSS', level: 90 },
-        { name: 'JavaScript', level: 90 }
-      ]
-    },
-    {
-      title: t('skills.backend'),
-      icon: Server,
-      skills: [
-        { name: 'Adonisjs', level: 80 },
-        { name: 'Laravel', level: 80 },
-        { name: 'Django', level: 75 },
-        { name: 'MongoDB', level: 75 }
-      ]
-    },
-    {
-      title: t('skills.tools'),
-      icon: GitBranch,
-      skills: [
-        { name: 'Git', level: 85 },
-        { name: 'Docker', level: 70 },
-        { name: 'Figma', level: 85 },
-        { name: 'Postman', level: 80 }
-      ]
-    },
-    {
-      title: t('skills.other'),
-      icon: Zap,
-      skills: [
-        { name: 'REST APIs', level: 85 },
-        { name: 'Testing', level: 75 },
-        { name: 'Agile', level: 80 },
-        { name: 'UI/UX', level: 85 }
-      ]
-    }
-  ];
+  const skillCategories = useMemo(() => [
+  {
+    title: t('skills.frontend'),
+    icon: Palette,
+    skills: [
+      { name: 'React & React Native', level: 90 },
+      { name: 'TypeScript', level: 85 },
+      { name: 'Tailwind CSS', level: 90 },
+      { name: 'JavaScript', level: 90 }
+    ]
+  },
+  {
+    title: t('skills.backend'),
+    icon: Server,
+    skills: [
+      { name: 'Adonisjs', level: 80 },
+      { name: 'Laravel', level: 80 },
+      { name: 'Django', level: 75 },
+      { name: 'MongoDB', level: 75 }
+    ]
+  },
+  {
+    title: t('skills.tools'),
+    icon: GitBranch,
+    skills: [
+      { name: 'Git', level: 85 },
+      { name: 'Docker', level: 70 },
+      { name: 'Figma', level: 85 },
+      { name: 'Postman', level: 80 }
+    ]
+  },
+  {
+    title: t('skills.other'),
+    icon: Zap,
+    skills: [
+      { name: 'REST APIs', level: 85 },
+      { name: 'Testing', level: 75 },
+      { name: 'Agile', level: 80 },
+      { name: 'UI/UX', level: 85 }
+    ]
+  }
+], [language]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -138,7 +138,7 @@ const Skills = () => {
         >
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
-              key={category.title}
+              key={categoryIndex}
               variants={itemVariants}
               className="bg-card/50 backdrop-blur-sm rounded-2xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10"
             >
