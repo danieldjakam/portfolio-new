@@ -24,8 +24,8 @@ const Projects = () => {
     {
       title: "School Management App for secondary schools",
       description: "A comprehensive school management system with features for student enrollment, attendance tracking, and grade management.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "Socket.io", "MySQL", "Express"],
+      image: "projects/school.png",
+      technologies: ["React", "Node.js", "MySQL", "Express"],
       github: "https://github.com/danieldjakam/task-manager",
       live: "https://task-manager-demo.com",
       featured: true
@@ -33,7 +33,7 @@ const Projects = () => {
     {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing projects and skills with beautiful animations and smooth interactions.",
-      image: "/api/placeholder/400/250",
+      image: "projects/portfolio.png",
       technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
       github: "https://github.com/danieldjakam/portfolio",
       live: "https://danieldjakam.com",
@@ -42,7 +42,7 @@ const Projects = () => {
     {
       title: "School Management Platform for university schools",
       description: "A robust platform for managing university schools with features for course management, student profiles, and faculty administration.",
-      image: "/api/placeholder/400/250",
+      image: "projects/school uni.png",
       technologies: ["Laravel", "Tailwind CSS", "Chart.js", "CSS Modules"],
       github: "https://github.com/danieldjakam/weather-app",
       live: "https://weather-demo.com",
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       title: "A music streaming app - Pleyer",
       description: "A music streaming application with user authentication, playlist management, and real-time updates.",
-      image: "/api/placeholder/400/250",
+      image: "projects/pleyer.png",
       technologies: ["Next.js", "Deezer API", "PostgreSQL", "Vercel"],
       github: "https://github.com/danieldjakam/blog-platform",
       live: "https://blog-demo.com",
@@ -60,7 +60,7 @@ const Projects = () => {
     {
       title: "E-commerce Platform",
       description: "A full-featured e-commerce platform with product listings, shopping cart, and payment integration.",
-      image: "/api/placeholder/400/250",
+      image: "projects/ecom.png",
       technologies: ["Laravel", "Stripe", "Tailwind CSS", "JWT"],
       github: "https://github.com/danieldjakam/chat-app",
       live: "https://chat-demo.com",
@@ -201,7 +201,11 @@ const Projects = () => {
                 <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Code className="h-12 w-12 text-primary/30" />
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" 
+                    />
                   </div>
                 </div>
                 
