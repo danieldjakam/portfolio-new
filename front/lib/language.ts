@@ -135,8 +135,10 @@ export const translations = {
       personalDetails: 'Détails personnels',
       skills: 'Compétences et expertise',
       whatIDo: 'Ce que je fais',
+      detail1: "Basé à ",
+      detail2: "Disponible pour de nouvelles opportunités",
       services: [
-        'Développement web full-stack',
+        'Développement web & mobile full-stack',
         'Design UI/UX responsive',
         'Développement et intégration d\'API',
         'Optimisation des performances',

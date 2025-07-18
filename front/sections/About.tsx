@@ -12,13 +12,13 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const skills = [
-    { name: 'React', level: 90 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'Next.js', level: 88 },
-    { name: 'Node.js', level: 82 },
-    { name: 'Tailwind CSS', level: 92 },
-    { name: 'Python', level: 75 },
-    { name: 'PostgreSQL', level: 78 },
+    // { name: 'React & React Native', level: 90 },
+    // { name: 'TypeScript', level: 85 },
+    // { name: 'Next.js', level: 88 },
+    { name: 'Javascript', level: 95 },
+    { name: 'Php', level: 92 },
+    { name: 'Python', level: 80 },
+    { name: 'SQL', level: 80 },
     { name: 'Docker', level: 70 },
   ];
 
@@ -80,11 +80,11 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-3 text-foreground/80">
                   <MapPin className="h-5 w-5 text-primary" />
-                  <span>Based in Douala, Cameroun</span>
+                  <span>{t('about.detail1')} Douala, Cameroun</span>
                 </div>
                 <div className="flex items-center space-x-3 text-foreground/80">
                   <Calendar className="h-5 w-5 text-primary" />
-                  <span>Available for new opportunities</span>
+                  <span>{t('about.detail2')}</span>
                 </div>
                 <div className="flex items-center space-x-3 text-foreground/80">
                   <Mail className="h-5 w-5 text-primary" />
