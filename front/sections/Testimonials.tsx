@@ -17,7 +17,7 @@ const Testimonials = () => {
       name: 'Michel Yossa',
       role: 'Co-developer',
       company: 'JoyOfMission.',
-      content: "Working alongside Daniel Djakam on the development of our Bible app has been an incredible experience. Their dedication, creativity, and technical skills played a key role in turning our vision into a reality. Whether it was designing intuitive user interfaces or solving complex backend challenges, they consistently delivered with excellence.",
+      content: t('testimonials.testimonial.1'),
       rating: 5,
       avatar: '/api/placeholder/80/80',
       project: 'E-Commerce Platform'
@@ -27,7 +27,7 @@ const Testimonials = () => {
       name: '',
       role: 'PDG',
       company: 'KevasFlex',
-      content: "Thanks to our QR code discount app, I've been able to attract more customers and retain existing ones. Each QR code offers a unique and traceable promotion, which simplifies offer management and prevents abuse. Many thanks to Daniel Djakam for this innovative solution, perfectly suited to my business.",
+      content: t('testimonials.testimonial.2'),
       rating: 5,
       avatar: '/api/placeholder/80/80',
       project: 'Task Management App'
@@ -37,7 +37,7 @@ const Testimonials = () => {
       name: 'Njonou Lumiere',
       role: 'ICT Teacher',
       company: 'GSB BANGUE',
-      content: "As an educator and school administrator, I can confidently say that this school management app has transformed the way we operate. From attendance tracking and grade management to parent-teacher communication and student progress reports — everything is now streamlined, efficient, and accessible in one place.",
+      content: t('testimonials.testimonial.3'),
       rating: 5,
       avatar: '/api/placeholder/80/80',
       project: 'Chat Application'

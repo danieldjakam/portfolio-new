@@ -13,26 +13,26 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Kira",
-      description: "A full-stack platform for creating badge automated.",
+      title: t('projects.project.1.title'),
+      description: t('projects.project.1.description'),
       image: "projects/kira.png",
       technologies: ["Next.js", "Django", "Stripe", "PostgreSQL", "Tailwind CSS"],
       github: "https://github.com/danieldjakam/ecommerce",
       live: false,
-      featured: true
+      featured: false
     },
     {
-      title: "School Management App for secondary schools",
-      description: "A comprehensive school management system with features for student enrollment, attendance tracking, and grade management.",
+      title: t('projects.project.2.title'),
+      description: t('projects.project.2.description'),
       image: "projects/school.png",
       technologies: ["React", "Node.js", "Express", "MySQL"],
       github: "https://github.com/danieldjakam/task-manager",
       live: false,
-      featured: true
+      featured: false
     },
     {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website showcasing projects and skills with beautiful animations and smooth interactions.",
+      title: t('projects.project.3.title'),
+      description: t('projects.project.3.description'),
       image: "projects/portfolio.png",
       technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
       github: "https://github.com/danieldjakam/portfolio",
@@ -40,8 +40,8 @@ const Projects = () => {
       featured: false
     },
     {
-      title: "School Management Platform for university schools",
-      description: "A robust platform for managing university schools with features for course management, student profiles, and faculty administration.",
+      title: t('projects.project.4.title'),
+      description: t('projects.project.4.description'),
       image: "projects/school uni.png",
       technologies: ["Laravel", "Tailwind CSS", "Chart.js", "CSS Modules"],
       github: "https://github.com/danieldjakam/weather-app",
@@ -49,22 +49,22 @@ const Projects = () => {
       featured: false
     },
     {
-      title: "An mobile app for Bible studies - joy of Mission",
-      description: "A mobile app for religious music and Bible studies, featuring a user-friendly interface and offline access to content. We can play musics, games and read the Bible. And many more.",
+      title: t('projects.project.5.title'),
+      description: t('projects.project.5.description'),
       image: "projects/joy.png",
       technologies: ["ReactNative", "Expo", "Laravel", "MySQL"],
       github: "https://github.com/danieldjakam/blog-platform",
       live: "https://joyofmission.com/",
-      featured: false
+      featured: true
     },
     {
-      title: "E-commerce Platform",
-      description: "A full-featured e-commerce platform with product listings, shopping cart, and payment integration.",
+      title: t('projects.project.6.title'),
+      description: t('projects.project.6.description'),
       image: "projects/ecom.png",
       technologies: ["Laravel", "Stripe", "Tailwind CSS", "JWT"],
       github: "https://github.com/danieldjakam/chat-app",
       live: "https://estuaireachats.com/",
-      featured: false
+      featured: true
     }
   ] as {
     title: string;
@@ -158,8 +158,8 @@ const Projects = () => {
                     ))}
                   </div>
                   
-                  {/* <div className="flex space-x-4">
-                    <motion.a
+                  <div className="flex space-x-4">
+                    {/* <motion.a
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       href={project.github}
@@ -169,19 +169,25 @@ const Projects = () => {
                     >
                                            <Github className="h-4 w-4" />
                      <span className="text-sm font-medium">{t('projects.code')}</span>
-                   </motion.a>
-                   <motion.a
-                     whileHover={{ scale: 1.05 }}
-                     whileTap={{ scale: 0.95 }}
-                     href={project.live}
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     className="flex items-center space-x-2 px-4 py-2 bg-primary hover:bg-primary-dark text-background rounded-lg transition-colors duration-200"
-                   >
-                     <ExternalLink className="h-4 w-4" />
-                     <span className="text-sm font-medium">{t('projects.demo')}</span>
-                   </motion.a>
-                  </div> */}
+                   </motion.a> */}
+                   
+                   {
+                    project.live && (
+                      <motion.a
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        href={project.live??"#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-1 px-3 py-1.5 bg-primary hover:bg-primary-dark text-background rounded-lg transition-colors duration-200"
+                      >
+                        <ExternalLink className="h-3 w-3" />
+                        <span className="h-3 w-1" />
+                        <span className="text-xs font-medium">{t('projects.demo')}</span>
+                      </motion.a>
+                    )
+                   }
+                  </div>
                 </div>
               </motion.div>
             ))}
@@ -264,7 +270,7 @@ const Projects = () => {
                         className="flex items-center space-x-1 px-3 py-1.5 bg-primary hover:bg-primary-dark text-background rounded-lg transition-colors duration-200"
                       >
                         <ExternalLink className="h-3 w-3" />
-                        <span className="h-3 w-3" />
+                        <span className="h-3 w-1" />
                         <span className="text-xs font-medium">{t('projects.demo')}</span>
                       </motion.a>
                     )

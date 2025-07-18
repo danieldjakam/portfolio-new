@@ -125,7 +125,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="flex items-center space-x-2 text-foreground/60"
           >
-            <span>© 2024 Daniel Djakam. {t('footer.madeWith')}</span>
+            <span>© 2025 Daniel Djakam. {t('footer.madeWith')}</span>
             <Heart className="h-4 w-4 text-red-500 animate-pulse" />
             <span>{t('footer.andCoffee')}</span>
           </motion.div>

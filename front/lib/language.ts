@@ -20,96 +20,6 @@ export const setLanguage = (language: Language) => {
 };
 
 export const translations = {
-  en: {
-    nav: {
-      home: 'Home',
-      about: 'About',
-      projects: 'Projects',
-      skills: 'Skills',
-      testimonials: 'Testimonials',
-      contact: 'Contact'
-    },
-    hero: {
-      greeting: "Hello, I'm",
-      title: 'Full Stack Developer',
-      description: "Passionate about creating beautiful, modern web & mobile applications with cutting-edge technologies. I turn ideas into reality through clean code and innovative solutions.",
-      cta1: 'Get to know me',
-      cta2: 'View Projects',
-      scrollDown: 'Scroll down'
-    },
-    about: {
-      title: 'About Me',
-      whoIAm: 'Who I Am',
-      description1: "I'm a passionate Full Stack Developer with a love for creating innovative web applications. With expertise in modern JavaScript frameworks and a keen eye for design, I bring ideas to life through clean, efficient code and user-centric solutions.",
-      description2: "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in continuous learning and staying up-to-date with the latest industry trends.",
-      personalDetails: 'Personal Details',
-      skills: 'Skills & Expertise',
-      whatIDo: 'What I Do',
-      services: [
-        'Full-stack web development',
-        'Responsive UI/UX design',
-        'API development & integration',
-        'Performance optimization',
-        'Code review & mentoring'
-      ]
-    },
-    projects: {
-      title: 'My Projects',
-      description: "Here are some of the projects I've worked on. Each one represents a unique challenge and showcases different aspects of my development skills.",
-      featured: 'Featured Projects',
-      allProjects: 'All Projects',
-      viewMore: 'View More on GitHub',
-      code: 'Code',
-      demo: 'Demo'
-    },
-    skills: {
-      title: 'Skills & Expertise',
-      subtitle: 'Here are the technologies and tools I work with. I\'m constantly learning and expanding my skill set to stay current with the latest industry trends.',
-      frontend: 'Frontend',
-      backend: 'Backend',
-      tools: 'Tools & DevOps',
-      other: 'Other Skills',
-      learning: 'Currently Learning',
-      learningText: 'I\'m always expanding my knowledge and exploring new technologies. Here are some areas I\'m currently focusing on:'
-    },
-    testimonials: {
-      title: 'Client Testimonials',
-      description: 'Here\'s what my clients have to say about working with me. Their feedback reflects my commitment to delivering exceptional results and building lasting relationships.',
-      stats: {
-        clients: 'Happy Clients',
-        projects: 'Projects Completed',
-        rating: 'Average Rating',
-        experience: 'Years Experience'
-      }
-    },
-    contact: {
-      title: 'Get In Touch',
-      description: "I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to work together or just say hello!",
-      sendMessage: 'Send a Message',
-      contactInfo: 'Contact Information',
-      followMe: 'Follow Me',
-      letsWork: "Let's Work Together",
-      letsWorkDesc: "I'm currently available for freelance work and full-time opportunities. Whether you have a project in mind or just want to chat about technology, I'd love to hear from you!",
-      form: {
-        name: 'Name',
-        email: 'Email',
-        subject: 'Subject',
-        message: 'Message',
-        namePlaceholder: 'Your name',
-        emailPlaceholder: 'your.email@example.com',
-        subjectPlaceholder: "What's this about?",
-        messagePlaceholder: 'Tell me about your project or just say hello!',
-        send: 'Send Message'
-      }
-    },
-    footer: {
-      description: 'Full Stack Developer passionate about creating beautiful, modern web applications with cutting-edge technologies.',
-      quickLinks: 'Quick Links',
-      connect: 'Connect',
-      madeWith: 'Made with',
-      andCoffee: 'and lots of coffee.'
-    }
-  },
   fr: {
     nav: {
       home: 'Accueil',
@@ -152,7 +62,33 @@ export const translations = {
       allProjects: 'Tous les projets',
       viewMore: 'Voir plus sur GitHub',
       code: 'Code',
-      demo: 'Démo'
+      demo: 'Visiter le site',
+      project: {
+        1 : {
+          title: "Kira",
+          description: "Kira est un saas qui permet de creer des badges automatiquement en un seul clic.",
+        },
+        2 : {
+          title: "Application de gestion scolaire pour les écoles secondaires",
+          description: "Un système complet de gestion scolaire avec des fonctionnalités d'inscription des élèves, de suivi des présences et de gestion des notes.",
+        },
+        3 : {
+          title: "Portfolio",
+          description: "Un site Web de portfolio moderne et réactif présentant des projets et des compétences avec de belles animations et des interactions fluides.",
+        },
+        4 : {
+          title: "Plateforme de gestion scolaire pour les écoles universitaires",
+          description: "Une plateforme robuste pour la gestion des écoles universitaires avec des fonctionnalités de gestion des cours, de profils d'étudiants et d'administration du corps professoral.",
+        }, 
+        5 : {
+          title: "Une application mobile pour les études bibliques - Joy of Mission",
+          description: "Une application mobile pour la musique religieuse et les études bibliques, dotée d'une interface conviviale et d'un accès hors ligne au contenu. Écoutez de la musique, jouez à des jeux et lisez la Bible. Et bien plus encore.",
+        },
+        6 : {
+          title: "Plateforme de commerce électronique",
+          description: "Une plateforme de commerce électronique complète avec des listes de produits, un panier d'achat et une intégration de paiement.",
+        }
+      }
     },
     skills: {
       title: 'Compétences et expertise',
@@ -171,8 +107,14 @@ export const translations = {
         clients: 'Clients Satisfaits',
         projects: 'Projets Réalisés',
         rating: 'Note Moyenne',
-        experience: 'Années d\'Expérience'
+        experience: 'Années d\'Expérience',
+      },
+      testimonial: {
+        1: "Travailler aux côtés de Daniel Djakam sur le développement de notre application biblique a été une expérience incroyable. Son dévouement, Sa créativité et ses compétences techniques ont joué un rôle essentiel dans la concrétisation de notre vision. Qu'il s'agisse de concevoir des interfaces utilisateur intuitives ou de résoudre des problèmes complexes en back-end, il a toujours fait preuve d'excellence.",
+        2: "Grâce à notre application de QR code pour les réductions, j’ai pu attirer plus de clients et fidéliser ceux qui venaient déjà. Chaque QR code offre une promotion unique et traçable, ce qui facilite la gestion des offres et évite les abus. Je bénéficie d’un système efficace et moderne pour dynamiser les ventes. Un grand merci à Daniel Djakam pour cette solution innovante et parfaitement adaptée à mon activité.",
+        3: "En tant qu'enseignant et administrateur scolaire, je peux affirmer avec certitude que cette application de gestion scolaire a transformé notre façon de travailler. Du suivi des présences à la gestion des notes, en passant par la communication parents-enseignants et les rapports de progression des élèves, tout est désormais simplifié, efficace et accessible en un seul endroit."
       }
+      
     },
     contact: {
       title: 'Contactez-moi',
@@ -202,94 +144,4 @@ export const translations = {
       andCoffee: 'et beaucoup de café.'
     }
   },
-  es: {
-    nav: {
-      home: 'Inicio',
-      about: 'Acerca de',
-      projects: 'Proyectos',
-      skills: 'Habilidades',
-      testimonials: 'Testimonios',
-      contact: 'Contacto'
-    },
-    hero: {
-      greeting: "Hola, soy",
-      title: 'Desarrollador Full Stack',
-      description: "Apasionado por crear aplicaciones web hermosas y modernas con tecnologías de vanguardia. Convierto ideas en realidad a través de código limpio y soluciones innovadoras.",
-      cta1: 'Conoceme',
-      cta2: 'Ver proyectos',
-      scrollDown: 'Desplázate hacia abajo'
-    },
-    about: {
-      title: 'Acerca de mí',
-      whoIAm: 'Quién soy',
-      description1: "Soy un desarrollador Full Stack apasionado por crear aplicaciones web innovadoras. Con experiencia en frameworks JavaScript modernos y un ojo para el diseño, doy vida a las ideas a través de código limpio y eficiente y soluciones centradas en el usuario.",
-      description2: "Cuando no estoy programando, me encontrarás explorando nuevas tecnologías, contribuyendo a proyectos de código abierto o compartiendo conocimientos con la comunidad de desarrolladores. Creo en el aprendizaje continuo y mantenerme actualizado con las últimas tendencias de la industria.",
-      personalDetails: 'Detalles personales',
-      skills: 'Habilidades y experiencia',
-      whatIDo: 'Lo que hago',
-      services: [
-        'Desarrollo web full-stack',
-        'Diseño UI/UX responsive',
-        'Desarrollo e integración de API',
-        'Optimización de rendimiento',
-        'Revisión de código y mentoría'
-      ]
-    },
-    projects: {
-      title: 'Mis proyectos',
-      description: "Aquí hay algunos de los proyectos en los que he trabajado. Cada uno representa un desafío único y muestra diferentes aspectos de mis habilidades de desarrollo.",
-      featured: 'Proyectos destacados',
-      allProjects: 'Todos los proyectos',
-      viewMore: 'Ver más en GitHub',
-      code: 'Código',
-      demo: 'Demo'
-    },
-    skills: {
-      title: 'Habilidades y experiencia',
-      subtitle: 'Aquí están las tecnologías y herramientas con las que trabajo. Constantemente estoy aprendiendo y expandiendo mis habilidades para mantenerme actualizado con las últimas tendencias de la industria.',
-      frontend: 'Frontend',
-      backend: 'Backend',
-      tools: 'Herramientas y DevOps',
-      other: 'Otras habilidades',
-      learning: 'Aprendiendo actualmente',
-      learningText: 'Siempre estoy expandiendo mis conocimientos y explorando nuevas tecnologías. Aquí hay algunas áreas en las que me estoy enfocando actualmente:'
-    },
-    testimonials: {
-      title: 'Testimonios de Clientes',
-      description: 'Aquí está lo que mis clientes dicen sobre trabajar conmigo. Sus comentarios reflejan mi compromiso de entregar resultados excepcionales y construir relaciones duraderas.',
-      stats: {
-        clients: 'Clientes Felices',
-        projects: 'Proyectos Completados',
-        rating: 'Calificación Promedio',
-        experience: 'Años de Experiencia'
-      }
-    },
-    contact: {
-      title: 'Ponte en contacto',
-      description: "Siempre estoy interesado en nuevas oportunidades y proyectos emocionantes. ¡No dudes en contactarme si te gustaría trabajar juntos o simplemente decir hola!",
-      sendMessage: 'Enviar mensaje',
-      contactInfo: 'Información de contacto',
-      followMe: 'Sígueme',
-      letsWork: 'Trabajemos juntos',
-      letsWorkDesc: "Actualmente estoy disponible para trabajo freelance y oportunidades de tiempo completo. Ya sea que tengas un proyecto en mente o solo quieras charlar sobre tecnología, ¡me encantaría saber de ti!",
-      form: {
-        name: 'Nombre',
-        email: 'Email',
-        subject: 'Asunto',
-        message: 'Mensaje',
-        namePlaceholder: 'Tu nombre',
-        emailPlaceholder: 'tu.email@ejemplo.com',
-        subjectPlaceholder: '¿De qué se trata?',
-        messagePlaceholder: '¡Cuéntame sobre tu proyecto o simplemente di hola!',
-        send: 'Enviar mensaje'
-      }
-    },
-    footer: {
-      description: 'Desarrollador Full Stack apasionado por crear aplicaciones web hermosas y modernas con tecnologías de vanguardia.',
-      quickLinks: 'Enlaces rápidos',
-      connect: 'Conectar',
-      madeWith: 'Hecho con',
-      andCoffee: 'y mucho café.'
-    }
-  }
 }; 

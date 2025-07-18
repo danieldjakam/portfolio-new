@@ -40,7 +40,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      value: "+237 658 501 980",
+      value: "+237 658 501 987",
       href: "tel:+237658501980"
     },
     {
