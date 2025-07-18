@@ -84,8 +84,8 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center gap-2"
           >
-            <div className="p-4 rounded-xl bg-primary/10 border border-primary/20">
-              <Code className="h-6 w-6 text-primary" />
+            <div className="p-2 rounded-xl bg-primary/10 border border-primary/20">
+              <img src="/me.png" alt="Logo" className="w-8 h-8" />
             </div>
             <span className="text-xl font-bold gradient-text">Daniel Djakam</span>
           </motion.div>

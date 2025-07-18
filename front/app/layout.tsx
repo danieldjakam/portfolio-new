@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: 'Daniel Djakam Portfolio',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/me.png',
         width: 1200,
         height: 630,
         alt: 'Daniel Djakam - Full Stack Developer',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Daniel Djakam - Full Stack Developer',
     description: 'Full Stack Developer passionate about creating beautiful, modern web applications with cutting-edge technologies.',
-    images: ['/og-image.jpg'],
+    images: ['/me.png'],
     creator: '@danieldjakam',
   },
   robots: {
@@ -89,10 +89,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" href="/me.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/me.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/me.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/me.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#10b981" />
         <meta name="msapplication-TileColor" content="#10b981" />

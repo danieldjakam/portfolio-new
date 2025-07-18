@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Daniel Djakam Portfolio',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/me.png',
         width: 1200,
         height: 630,
         alt: 'Daniel Djakam - Full Stack Developer',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Daniel Djakam - Full Stack Developer',
     description: 'Full Stack Developer passionate about creating beautiful, modern web applications with cutting-edge technologies.',
-    images: ['/og-image.jpg'],
+    images: ['/me.png'],
   },
   alternates: {
     canonical: 'https://danieldjakam.com',
@@ -60,8 +60,8 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Footer />
-      <PWAInstallPrompt />
-      <PWAStatus />
+      {/* <PWAInstallPrompt /> */}
+      {/* <PWAStatus /> */}
     </main>
   );
 }
