@@ -229,7 +229,7 @@ const Skills = () => {
               transition={{ duration: 0.6, delay: 0.7 }}
               className="flex flex-wrap justify-center gap-4 mt-6"
             >
-              {['Rust', 'Go', 'Kubernetes', 'Machine Learning'].map((tech, index) => (
+              {['Java', 'Dart', 'Machine Learning'].map((tech, index) => (
                 <span
                   key={tech}
                   className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium border border-primary/20"
