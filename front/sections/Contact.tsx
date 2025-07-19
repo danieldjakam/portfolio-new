@@ -19,7 +19,8 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
+    const form = e.target as HTMLFormElement;
+    form.submit();
     console.log('Form submitted:', formData);
   };
 
@@ -99,7 +100,7 @@ const Contact = () => {
             className="space-y-10"
           >
             <h3 className="text-2xl font-semibold text-primary mb-6">{t('contact.sendMessage')}</h3>
-                         <form onSubmit={handleSubmit} className="space-y-10">
+                         <form id='contact-form' onSubmit={handleSubmit} action="https://formspree.io/f/mwpqpjzd" method="post" className="space-y-10">
                              <div className="grid md:grid-cols-2 gap-10">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -142,7 +143,7 @@ const Contact = () => {
                 </motion.div>
               </div>
 
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.5 }}
@@ -160,7 +161,7 @@ const Contact = () => {
                   className="w-full px-4 py-3 bg-muted/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-foreground placeholder-foreground/50"
                   placeholder={t('contact.form.subjectPlaceholder')}
                 />
-              </motion.div>
+              </motion.div> */}
 
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -176,12 +177,13 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  rows={6}
+                  rows={12}
                   className="w-full px-4 py-3 bg-muted/50 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-foreground placeholder-foreground/50 resize-none"
                   placeholder={t('contact.form.messagePlaceholder')}
                 />
               </motion.div>
 
+            <input type="hidden" name="_captcha" value="false"/>
               <motion.button
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
