@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Daniel Djakam Portfolio',
     images: [
       {
-        url: '/me.png',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Daniel Djakam - Full Stack Developer',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Daniel Djakam - Full Stack Developer',
     description: 'Full Stack Developer passionate about creating beautiful, modern web applications with cutting-edge technologies.',
-    images: ['/me.png'],
+    images: ['/og-image.png'],
   },
   alternates: {
     canonical: 'https://danieldjakam.com',
