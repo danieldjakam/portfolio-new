@@ -60,7 +60,7 @@ const PWAStatus = () => {
             >
             <div className="flex items-center space-x-2 text-green-500">
               <PhoneCall className="h-4 w-4" />
-              <span className="text-xs font-medium">Whatsapp : +237 691973255</span>
+              <span className="text-xs font-medium">+237 691973255</span>
             </div>
             </motion.a>
           {/* )} */}

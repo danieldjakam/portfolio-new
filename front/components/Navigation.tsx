@@ -85,7 +85,7 @@ const Navigation = () => {
             className="flex items-center gap-2"
           >
             <div className="p-2 rounded-xl bg-primary/10 border border-primary/20">
-              <img src="/me.png" alt="Logo" className="w-8 h-8" />
+              <img src="/image.png" alt="Logo" className="w-8 h-8" />
             </div>
             <span className="text-xl font-bold gradient-text">Daniel Djakam</span>
           </motion.div>
