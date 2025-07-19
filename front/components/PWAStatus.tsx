@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Wifi, WifiOff, Smartphone, Download } from 'lucide-react';
+import { Wifi, WifiOff, Smartphone, Download, PhoneCall } from 'lucide-react';
 
 const PWAStatus = () => {
   const [isOnline, setIsOnline] = useState(true);
@@ -49,14 +49,23 @@ const PWAStatus = () => {
     >
       <div className="bg-card/95 backdrop-blur-xl border border-border/50 rounded-xl p-3 shadow-lg">
         <div className="flex items-center space-x-2">
-          {!isOnline && (
-            <div className="flex items-center space-x-2 text-orange-500">
-              <WifiOff className="h-4 w-4" />
-              <span className="text-xs font-medium">Offline</span>
+          {/* {!isOnline && ( */}
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              href={"https://wa.me/237691973255"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-1 px-3 py-1.5 rounded-lg transition-colors duration-200"
+            >
+            <div className="flex items-center space-x-2 text-green-500">
+              <PhoneCall className="h-4 w-4" />
+              <span className="text-xs font-medium">Whatsapp : +237 691973255</span>
             </div>
-          )}
+            </motion.a>
+          {/* )} */}
           
-          {isInstalled && (
+          {/* {isInstalled && (
             <div className="flex items-center space-x-2 text-green-500">
               <Smartphone className="h-4 w-4" />
               <span className="text-xs font-medium">Installed</span>
@@ -68,7 +77,7 @@ const PWAStatus = () => {
               <Download className="h-4 w-4" />
               <span className="text-xs font-medium">Installable</span>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </motion.div>

@@ -41,8 +41,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      value: "+237 658 501 987",
-      href: "tel:+237658501980"
+      value: "+237 691 97 32 55",
+      href: "https://wa.me/237691973255"
     },
     {
       icon: MapPin,

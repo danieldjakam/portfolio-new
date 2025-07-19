@@ -61,7 +61,7 @@ export default function Home() {
       <Contact />
       <Footer />
       <PWAInstallPrompt />
-      {/* <PWAStatus /> */}
+      <PWAStatus />
     </main>
   );
 }
