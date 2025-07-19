@@ -113,7 +113,8 @@ export const translations = {
         1: "Working alongside Daniel Djakam on the development of our Bible app was an incredible experience. His dedication, creativity, and technical skills played a key role in bringing our vision to life.",
         2: "Thanks to our QR code discount app, I’ve been able to attract more customers and keep existing ones coming back. Each code offers a unique and trackable promotion. It’s a modern, efficient solution! Thank you Daniel Djakam.",
         3: "As a teacher and school administrator, I can confidently say that this school management app has transformed how we operate. Everything is now simplified, efficient, and accessible in one place.",
-      }
+      },
+      badge: 'Badge Generator',
     },
     contact: {
       title: 'Contact Me',
@@ -236,7 +237,8 @@ export const translations = {
         1: "Travailler aux côtés de Daniel Djakam sur le développement de notre application biblique a été une expérience incroyable. Son dévouement, Sa créativité et ses compétences techniques ont joué un rôle essentiel dans la concrétisation de notre vision. Qu'il s'agisse de concevoir des interfaces utilisateur intuitives ou de résoudre des problèmes complexes en back-end, il a toujours fait preuve d'excellence.",
         2: "Grâce à notre application de QR code pour les réductions, j’ai pu attirer plus de clients et fidéliser ceux qui venaient déjà. Chaque QR code offre une promotion unique et traçable, ce qui facilite la gestion des offres et évite les abus. Je bénéficie d’un système efficace et moderne pour dynamiser les ventes. Un grand merci à Daniel Djakam pour cette solution innovante et parfaitement adaptée à mon activité.",
         3: "En tant qu'enseignant et administrateur scolaire, je peux affirmer avec certitude que cette application de gestion scolaire a transformé notre façon de travailler. Du suivi des présences à la gestion des notes, en passant par la communication parents-enseignants et les rapports de progression des élèves, tout est désormais simplifié, efficace et accessible en un seul endroit."
-      }
+      },
+      badge: 'Générateur de badges',
       
     },
     contact: {
@@ -360,7 +362,8 @@ export const translations = {
         1: "Trabajar junto a Daniel Djakam en el desarrollo de nuestra app bíblica fue una experiencia increíble. Su dedicación, creatividad y habilidades técnicas fueron clave para hacer realidad nuestra visión.",
         2: "Gracias a nuestra app de QR para descuentos, pude atraer a más clientes y fidelizar los existentes. Cada código ofrece una promoción única y rastreable. ¡Una solución moderna y eficiente! Gracias Daniel Djakam.",
         3: "Como docente y administrador escolar, puedo decir con certeza que esta app de gestión escolar ha transformado nuestra forma de trabajar. Todo es más sencillo, eficaz y accesible desde un solo lugar.",
-      }
+      },
+      badge: 'Generador de insignias',
     },
     contact: {
       title: 'Contáctame',

@@ -16,11 +16,11 @@ const Testimonials = () => {
       id: 1,
       name: 'Michel Yossa',
       role: 'Co-developer',
-      company: 'JoyOfMission.',
+      company: 'JoyOfMission',
       content: t('testimonials.testimonial.1'),
       rating: 5,
       avatar: '/api/placeholder/80/80',
-      project: 'E-Commerce Platform'
+      project: 'JoyOfMission'
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Testimonials = () => {
       content: t('testimonials.testimonial.2'),
       rating: 5,
       avatar: '/api/placeholder/80/80',
-      project: 'Task Management App'
+      project: t('testimonials.badge')
     },
     {
       id: 6,
@@ -40,7 +40,7 @@ const Testimonials = () => {
       content: t('testimonials.testimonial.3'),
       rating: 5,
       avatar: '/api/placeholder/80/80',
-      project: 'Chat Application'
+      project: t('projects.project.2.title')
     }
   ];
 
