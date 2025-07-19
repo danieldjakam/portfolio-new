@@ -1,13 +1,7 @@
 import type { NextConfig } from "next";
-import withPWA from 'next-pwa';
+const withPWA = require('next-pwa');
 
-const nextConfig: NextConfig = {
-  reactStrictMode: false,
-  swcMinify: true,
-};
-
-export default withPWA({
-  ...nextConfig,
+const pwaConfig = {
   dest: 'public',
   register: true,
   skipWaiting: true,
@@ -187,4 +181,17 @@ export default withPWA({
       },
     },
   ],
-});
+} as const;
+
+const nextConfig: NextConfig = {
+  reactStrictMode: false,
+  turbopack: {
+    // Example: adding an alias and custom file extension
+    resolveAlias: {
+      underscore: 'lodash',
+    },
+    resolveExtensions: ['.mdx', '.tsx', '.ts', '.jsx', '.js', '.json'],
+  },
+};
+
+export default withPWA(pwaConfig)(nextConfig);
