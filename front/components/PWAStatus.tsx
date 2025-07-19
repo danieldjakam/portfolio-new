@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Wifi, WifiOff, Smartphone, Download, PhoneCall } from 'lucide-react';
+import { FaW, FaWhatsapp } from 'react-icons/fa6';
 
 const PWAStatus = () => {
   const [isOnline, setIsOnline] = useState(true);
@@ -45,9 +46,9 @@ const PWAStatus = () => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="fixed top-20 right-4 z-40"
+      className="fixed bottom-20 right-4 z-40"
     >
-      <div className="bg-card/95 backdrop-blur-xl border border-border/50 rounded-xl p-3 shadow-lg">
+      <div className="bg-card/95 backdrop-blur-lg border border-border/50 rounded-xl p-3 shadow-lg">
         <div className="flex items-center space-x-2">
           {/* {!isOnline && ( */}
             <motion.a
@@ -56,11 +57,10 @@ const PWAStatus = () => {
               href={"https://wa.me/237691973255"}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-1 px-3 py-1.5 rounded-lg transition-colors duration-200"
+              className="flex items-center space-x-1 px-1 py-1 rounded-lg transition-colors duration-200"
             >
             <div className="flex items-center space-x-2 text-green-500">
-              <PhoneCall className="h-4 w-4" />
-              <span className="text-xs font-medium">+237 691973255</span>
+              <FaWhatsapp className="h-6 w-6" />
             </div>
             </motion.a>
           {/* )} */}
