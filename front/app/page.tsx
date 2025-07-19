@@ -60,8 +60,8 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Footer />
-      {/* <PWAInstallPrompt /> */}
-      {/* <PWAStatus /> */}
+      <PWAInstallPrompt />
+      <PWAStatus />
     </main>
   );
 }
