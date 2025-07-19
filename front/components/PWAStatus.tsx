@@ -46,7 +46,7 @@ const PWAStatus = () => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="fixed bottom-20 right-4 z-40"
+      className="fixed bottom-20 left-4 z-40"
     >
       <div className="bg-card/95 backdrop-blur-lg border border-border/50 rounded-xl p-3 shadow-lg">
         <div className="flex items-center space-x-2">
