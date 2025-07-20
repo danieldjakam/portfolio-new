@@ -4,6 +4,7 @@ import './globals.css'
 import { AppProvider } from '../lib/context'
 import ServiceWorkerRegistration from '../components/ServiceWorkerRegistration'
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -147,6 +148,7 @@ export default function RootLayout({
         <AppProvider>
           {children}
           <Analytics />
+          <SpeedInsights />
         </AppProvider>
         <ServiceWorkerRegistration />
       </body>
