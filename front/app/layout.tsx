@@ -98,6 +98,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#10b981" />
         <meta name="msapplication-TileColor" content="#10b981" />
+        <meta name="google-site-verification" content="CdKC6gaR5Xb6iwHeheHkM_B6dr6qOfPRl5IaqOAeXo8" />
         
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
