@@ -44,9 +44,6 @@ export const metadata: Metadata = {
     description: 'Full Stack Developer passionate about creating beautiful, modern web applications with cutting-edge technologies.',
     images: ['/og-image.png'],
   },
-  alternates: {
-    canonical: 'https://danieldjakam.com',
-  },
 }
 
 export default function Home() {

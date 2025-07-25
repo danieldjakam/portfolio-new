@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://danieldjakam.com'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://danieldjakam.com',
   },
   openGraph: {
     type: 'website',
